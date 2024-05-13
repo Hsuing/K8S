@@ -26,7 +26,7 @@ spec:
       serviceAccount: csi-snapshotter
       containers:
         - name: csi-snapshotter
-          image: registry.cn-beijing.aliyuncs.com/dotbalo/csi-snapshotter:v4.0.0
+          image: registry.cn-zhangjiakou.aliyuncs.com/hsuing/csi-snapshotter:v4.0.0
           args:
             - -v=5
             - --csi-address=/csi/csi.sock

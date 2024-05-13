@@ -26,7 +26,7 @@ spec:
       serviceAccountName: csi-provisioner
       containers:
         - name: csi-provisioner
-          image: registry.cn-beijing.aliyuncs.com/dotbalo/csi-provisioner:v2.1.0
+          image: registry.cn-zhangjiakou.aliyuncs.com/hsuing/csi-provisioner:v2.1.0
           args:
             - -v=5
             - --csi-address=/csi/csi.sock

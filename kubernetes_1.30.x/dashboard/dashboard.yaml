@@ -191,7 +191,7 @@ spec:
           type: RuntimeDefault
       containers:
         - name: kubernetes-dashboard
-          image: registry.cn-beijing.aliyuncs.com/dotbalo/dashboard:v2.7.0
+          image: registry.cn-zhangjiakou.aliyuncs.com/hsuing/dashboard:v2.7.0
           imagePullPolicy: Always
           ports:
             - containerPort: 8443
@@ -276,7 +276,7 @@ spec:
           type: RuntimeDefault
       containers:
         - name: dashboard-metrics-scraper
-          image: registry.cn-beijing.aliyuncs.com/dotbalo/metrics-scraper:v1.0.8
+          image: registry.cn-zhangjiakou.aliyuncs.com/hsuing/metrics-scraper:v1.0.8
           ports:
             - containerPort: 8000
               protocol: TCP
